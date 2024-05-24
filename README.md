@@ -10,7 +10,7 @@ Implementation for AuroEventSeg needs:
 
 * **auroEventSeg.m**. This code is used to segment aurora events using an unsupervised way based on the previous step, which provides an effective tool for estimating the start and lifetime of auroral events without human involvement.  
 
-* **lowrank_corr.m**. The code of GoDec[1] provided by Tianyi Zhou is used to detect motion saliency, low-rank and sparse decomposition was used to generate a spatial attention map that indicates where to emphasize or suppress.  
+* **lowrank_corr.m**. Low-rank for generating spatial attention maps indicating locations of emphasis or inhibition to detect motion saliency is based on the GoDec[1] code provided by Tianyi Zhou.   
 
 
 ## How To Use
